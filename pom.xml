@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>JsonRpcServerApplication</name>
+	<name>MyJsonRpcApplication</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -40,6 +40,9 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+
+
 	</dependencies>
 
 	<build>

@@ -1,4 +1,4 @@
-package come.example.demo.RestController;
+package com.example.demo.RestController;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,6 +24,10 @@ public class JsonRpcExampleController {
             switch (method) {
                 case "getUser":
                     result = getUser(params);
+                    break;
+                case "add":
+                    System.out.println("add");
+                    result = objectMapper.createObjectNode().put("name", "John Doe").put("id", 99);
                     break;
                 // Add more methods here
                 default:
